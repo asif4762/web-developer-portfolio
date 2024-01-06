@@ -206,3 +206,11 @@ main section {
     text-align: center;
     margin-top: 50px;
 }
+
+footer{
+    display: flex;
+    background: #ffe7d6;
+    padding: 130px 200px;
+    margin-top: 113px;
+
+}
