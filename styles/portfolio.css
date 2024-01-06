@@ -202,15 +202,33 @@ main section {
     margin: 30px 0px;
 }
 
-.download-cv{
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
 
-footer{
+footer {
     display: flex;
+    gap: 100px;
     background: #ffe7d6;
     padding: 130px 200px;
     margin-top: 113px;
+    
 
+
+}
+
+footer .footer-column {
+    width: 50%;
+}
+
+.contact input[type="text"],[type="email"], textarea {
+    display: block;
+    margin: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border: 0;
+    border-radius: 5px;
+    background: #FFF;
+    width: 100%;
 }
